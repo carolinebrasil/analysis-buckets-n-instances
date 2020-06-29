@@ -9,7 +9,7 @@ Name, date of creation, number of files, total size in KB, last modified date of
 s3 = boto3.resource('s3') 
 
 # Table to organize and show the information 
-table = TableLogger(columns='Name,Creation date, Number of files, Total size (KB), Last modified date, Price', border=True)
+table = TableLogger(columns='Name,Creation date,Number of files,Total size (KB),Last modified date,Price', border=True)
 
 # tax for s3 in us-east-1
 tax = 0.023  
