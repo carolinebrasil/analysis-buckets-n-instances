@@ -57,9 +57,12 @@ Expected output:
 ```
 
 or
+
 ```
 $ python3 data-analysis-ec2.py
+```
 
+Expected output:
 ```
 +---------------------+----------------------+----------------------+----------------------+----------------------+
 | Creation date       |  ID                  |  Type                | State                |  Private_IP          |
