@@ -1,4 +1,4 @@
-## Data analysis S3 
+## Data analysis S3 and Ec2
 This tool was created in Python3 to analyze informations of buckets in Amazon S3, showing about each bucket:
  - Name 
  - Date of creation
@@ -44,7 +44,10 @@ pip3 install -r requirements.txt
 ```
 $ python3 data-analysis-s3.py
 ```
-
+or
+```
+$ python3 data-analysis-ec2.py
+```
 
 Expected output:
 ```
