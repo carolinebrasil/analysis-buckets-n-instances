@@ -44,10 +44,6 @@ pip3 install -r requirements.txt
 ```
 $ python3 data-analysis-s3.py
 ```
-or
-```
-$ python3 data-analysis-ec2.py
-```
 
 Expected output:
 ```
@@ -59,3 +55,18 @@ Expected output:
 | firstpythonbucket    | 2020-06-27           |                    2 |             0.683600 | 2020-06-28           |             0.000000 |
 | secondpythonbucket   | 2020-06-27           |                    1 |             0.293000 | 2020-06-27           |             0.000000 |
 ```
+
+or
+```
+$ python3 data-analysis-ec2.py
+
+```
++---------------------+----------------------+----------------------+----------------------+----------------------+
+| Creation date       |  ID                  |  Type                | State                |  Private_IP          |
+|---------------------+----------------------+----------------------+----------------------+----------------------|
+| 2020-07-19 18:06:32 | i-0d8fca075757d07e7  | t2.medium            | running              | 172.31.73.219        |
+| 2020-07-19 18:06:32 | i-0298f359163d99f24  | t2.medium            | running              | 172.31.73.135        |
+| 2020-07-19 18:06:32 | i-04648d0c2d5efe183  | t2.medium            | running              | 172.31.79.103        |
+
+```
+
