@@ -30,9 +30,9 @@ region = YOUR_PREFERRED_REGION
 ### Install
 In your terminal clone this repo:
 ```
-git clone https://github.com/carolinebrasil/devops-challenge-ze.git
+git clone https://github.com/carolinebrasil/analysis-buckets-n-instances.git
 
-cd devops-challenge-ze
+cd analysis-buckets-n-instances
 ```
 run the following command:
 ```
